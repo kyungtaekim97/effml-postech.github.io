@@ -2,18 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/spring24/</loc>
+    <loc>//localhost:1313/docs/spring24/0_taco_example/</loc>
   </url><url>
-    <loc>/docs/spring24/posts/</loc>
+    <loc>//localhost:1313/docs/spring24/1_/</loc>
   </url><url>
-    <loc>/docs/spring24/posts/example_0_taco_hagyeonglee/</loc>
+    <loc>//localhost:1313/docs/spring24/2_/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/docs/spring24/3_/</loc>
   </url><url>
-    <loc>/docs/</loc>
+    <loc>//localhost:1313/docs/spring24/4_/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/docs/spring24/5_/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/docs/spring24/6_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/7_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/8_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/9_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_10_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_11_-/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_12_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_13_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_14_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_15_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_16_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_17_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_18_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_19_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_20_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_21_-/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_22_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_23_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_24_/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/_25_/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/spring24/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
