@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring 2024 on Efficient ML Systems</title>
-    <link>https:/efficientml-postech.github.io/docs/spring24/</link>
+    <link>/docs/spring24/</link>
     <description>Recent content in Spring 2024 on Efficient ML Systems</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https:/efficientml-postech.github.io/docs/spring24/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/docs/spring24/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

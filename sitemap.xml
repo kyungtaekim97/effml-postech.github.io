@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https:/efficientml-postech.github.io/docs/spring24/</loc>
+    <loc>/docs/spring24/</loc>
   </url><url>
-    <loc>https:/efficientml-postech.github.io/docs/spring24/posts/</loc>
+    <loc>/docs/spring24/posts/</loc>
   </url><url>
-    <loc>https:/efficientml-postech.github.io/docs/spring24/posts/example_0_taco_hagyeonglee/</loc>
+    <loc>/docs/spring24/posts/example_0_taco_hagyeonglee/</loc>
   </url><url>
-    <loc>https:/efficientml-postech.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https:/efficientml-postech.github.io/docs/</loc>
+    <loc>/docs/</loc>
   </url><url>
-    <loc>https:/efficientml-postech.github.io/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>https:/efficientml-postech.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
