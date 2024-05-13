@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Efficient ML Systems</title>
+    <link>https://effml-postech.github.io/docs/spring24/18_/</link>
+    <description>Recent content on Efficient ML Systems</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://effml-postech.github.io/docs/spring24/18_/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
