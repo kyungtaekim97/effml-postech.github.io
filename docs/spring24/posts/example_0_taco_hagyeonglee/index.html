@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Example : Content # This paper propose a compression framework that leverages text information mainly by text-adaptive encoding and training with joint image-text loss. By doing so, they avoid decoding based on text-guided generative models&mdash;known for high generative diversity&mdash;and effectively utilize the semantic information of text at a global level.
+Example : Using KaTeX for math equation # KaTeX shortcode let you render math typesetting in markdown document. See KaTeX">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https:/efficientml-postech.github.io/docs/spring24/posts/example_0_taco_hagyeonglee/">
+  <meta property="og:site_name" content="Efficient ML Systems">
+  <meta property="og:title" content="Efficient ML Systems">
+  <meta property="og:description" content="Example : Content # This paper propose a compression framework that leverages text information mainly by text-adaptive encoding and training with joint image-text loss. By doing so, they avoid decoding based on text-guided generative models—known for high generative diversity—and effectively utilize the semantic information of text at a global level.
+Example : Using KaTeX for math equation # KaTeX shortcode let you render math typesetting in markdown document. See KaTeX">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<title>[Example] 0 Taco Hagyeonglee | Efficient ML Systems</title>
+<link rel="manifest" href="/efficientml-postech.github.io/manifest.json">
+<link rel="icon" href="/efficientml-postech.github.io/favicon.png" >
+<link rel="canonical" href="https:/efficientml-postech.github.io/docs/spring24/posts/example_0_taco_hagyeonglee/">
+<link rel="stylesheet" href="/efficientml-postech.github.io/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" >
+  <script defer src="/efficientml-postech.github.io/flexsearch.min.js"></script>
+  <script defer src="/efficientml-postech.github.io/en.search.min.391e8b1ef8c206441be9b5673bade1a2cc1191b6b600683a64363ce5e5ca78b2.js" ></script>
+
+  
+
+<link rel="alternate" type="application/rss+xml" href="https:/efficientml-postech.github.io/docs/spring24/posts/example_0_taco_hagyeonglee/index.xml" title="Efficient ML Systems" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/efficientml-postech.github.io/"><span>Efficient ML Systems</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/efficientml-postech.github.io/docs/spring24/" class="">Spring 2024</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Posts</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/efficientml-postech.github.io/docs/spring24/posts/example_0_taco_hagyeonglee/" class="active">[Example] 0 Taco Hagyeonglee</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/efficientml-postech.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>[Example] 0 Taco Hagyeonglee</strong>
+
+  <label for="toc-control">
+    
+    <img src="/efficientml-postech.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#example--content">Example : Content</a></li>
+    <li><a href="#example--using-katex-for-math-equation">Example : Using KaTeX for math equation</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="example--content">
+  Example : Content
+  <a class="anchor" href="#example--content">#</a>
+</h2>
+<p>This paper propose a compression framework that leverages text information mainly by text-adaptive encoding and training with joint image-text loss. By doing so, they avoid decoding based on text-guided generative models&mdash;known for high generative diversity&mdash;and effectively utilize the semantic information of text at a global level.</p>
+<figure><img src="./overall_architecture.png"
+    alt="." width="1000" height="1000">
+</figure>
+
+<h2 id="example--using-katex-for-math-equation">
+  Example : Using KaTeX for math equation
+  <a class="anchor" href="#example--using-katex-for-math-equation">#</a>
+</h2>
+<p>KaTeX shortcode let you render math typesetting in markdown document. See <a href="https://katex.org/">KaTeX</a></p>
+<p>Here is some inline example: 
+<link rel="stylesheet" href="/efficientml-postech.github.io/katex/katex.min.css" />
+<script defer src="/efficientml-postech.github.io/katex/katex.min.js"></script>
+<script defer src="/efficientml-postech.github.io/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(\pi(x)\)
+</span>
+, rendered in the same line. And below is <code>display</code> example, having <code>display: block</code>
+<span>
+  \[f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi\]
+</span>
+
+Text continues here.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#example--content">Example : Content</a></li>
+    <li><a href="#example--using-katex-for-math-equation">Example : Using KaTeX for math equation</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

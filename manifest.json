@@ -1,0 +1,15 @@
+{
+  "name": "Efficient ML Systems",
+  "short_name": "Efficient ML Systems",
+  "start_url": "/efficientml-postech.github.io/",
+  "scope": "/efficientml-postech.github.io/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/efficientml-postech.github.io/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
