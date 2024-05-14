@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/docs/spring24/00_taco_example/</loc>
-    <lastmod>2024-05-14T13:48:26+09:00</lastmod>
+    <lastmod>2024-05-14T13:56:46+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/spring24/01_/</loc>
-    <lastmod>2024-05-14T13:48:26+09:00</lastmod>
+    <lastmod>2024-05-14T13:57:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/spring24/02_/</loc>
     <lastmod>2024-05-14T13:48:26+09:00</lastmod>
@@ -89,7 +89,7 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2024-05-14T13:48:26+09:00</lastmod>
+    <lastmod>2024-05-14T13:57:22+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
