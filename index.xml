@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/spring24/25_/Merging-Text-Transformer-Models-from-Different-Initializations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/spring24/25_/Merging-Text-Transformer-Models-from-Different-Initializations/</guid>
+      <description>Merging Text Transformer Models from Different Initializations # Authors: Neha Verma (Johns Hopkins University), Maha Elbayad (Meta)&#xA;Although recent works on model merging have exhibited low- or zero-barrier mode connectivity between models with different initialization, model merging on transformer architecture has not yet been studied extensively. The application of previous merging techniques on the transformer structure is limited due to its unique structural characteristics, such as residual connection, multi-head attention (MHA), and sequential input.</description>
+    </item>
   </channel>
 </rss>
