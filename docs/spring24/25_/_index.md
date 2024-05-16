@@ -99,6 +99,15 @@ $$
 Since the input to each layer must be permuted ($\text{P}x$), and the output of each layer is also permuted ($\text{P}x_f^r$), the entire transformer architecture uses the same $\{\text{P}, \text{P}^{\text{T}}\}$ matrices for all weights involved in residual connections.
 
 ## Results
+### Experimental settings
+In this work, we investigate 5 different BERT models from the MultiBERTs reproductions seeds 1 through 5 (see https://aclanthology.org/N19-1423 and https://arxiv.org/abs/2106.16163).
+Each models has the following properties:
+1. a bert-base-uncased checkpoint.
+2. a different random initialization and random ordering.
+3. using the same original BERT vocabulary and tokenizer.
+4. in classification tasks, fine-tuned models with a randomly initialized classification head with pooling layer and classification layer weights keeping the head initializations the same across models.
+
+
 
 ## Conclusion
 
