@@ -3,13 +3,15 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" # ">
+<meta name="description" content="Larimar: Large Language Models with Episodic Memory Control # Authors: Payel Das (IBM AI Research), Subhajit Chaudhury (IBM AI Research)
+Neocortex-Hippocampus interactions # This paper imitate the role of brain. Humans can rapidly update their knowledge after encountering the first relevant instance. In the brain, this process is facilitated through interactions between the neocortex and the hippocampus. The hippocampus is the site for storing long-term memories, while the neocortex integrates long-term and short-term memories to relay the results to the body.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/spring24/22_/">
   <meta property="og:site_name" content="Efficient ML Systems">
   <meta property="og:title" content="Efficient ML Systems">
-  <meta property="og:description" content=" # ">
+  <meta property="og:description" content="Larimar: Large Language Models with Episodic Memory Control # Authors: Payel Das (IBM AI Research), Subhajit Chaudhury (IBM AI Research)
+Neocortex-Hippocampus interactions # This paper imitate the role of brain. Humans can rapidly update their knowledge after encountering the first relevant instance. In the brain, this process is facilitated through interactions between the neocortex and the hippocampus. The hippocampus is the site for storing long-term memories, while the neocortex integrates long-term and short-term memories to relay the results to the body.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <title>22 | Efficient ML Systems</title>
@@ -18,7 +20,7 @@
 <link rel="canonical" href="http://localhost:1313/docs/spring24/22_/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.163f22166c4a1c2d54391e1b72978110da77f8fe57689350b9026da88435526c.js" integrity="sha256-Fj8iFmxKHC1UOR4bcpeBENp3&#43;P5XaJNQuQJtqIQ1Umw=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.bf67d519c9158c61e61aa2159f96e680798e99030f3689e965832ab445329f11.js" integrity="sha256-v2fVGckVjGHmGqIVn5bmgHmOmQMPNonpZYMqtEUynxE=" crossorigin="anonymous"></script>
 
   
 
@@ -606,7 +608,12 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#neocortex-hippocampus-interactions">Neocortex-Hippocampus interactions</a></li>
+    <li><a href="#contributions">Contributions</a></li>
+  </ul>
+</nav>
 
 
 
@@ -617,10 +624,41 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h1 id="heading">
-  
-  <a class="anchor" href="#heading">#</a>
+  <article class="markdown book-article"><h1 id="larimar-large-language-models-with-episodic-memory-control">
+  Larimar: Large Language Models with Episodic Memory Control
+  <a class="anchor" href="#larimar-large-language-models-with-episodic-memory-control">#</a>
 </h1>
+<p><em>Authors: Payel Das (IBM AI Research), Subhajit Chaudhury (IBM AI Research)</em></p>
+<h2 id="neocortex-hippocampus-interactions">
+  Neocortex-Hippocampus interactions
+  <a class="anchor" href="#neocortex-hippocampus-interactions">#</a>
+</h2>
+<p>This paper imitate the role of brain. Humans can rapidly update their knowledge after encountering the first relevant instance. In the brain, this process is facilitated through interactions between the neocortex and the hippocampus. The hippocampus is the site for storing long-term memories, while the neocortex integrates long-term and short-term memories to relay the results to the body.</p>
+<p align="center">
+    <img src=brain.png width="400"> 
+</p>
+The Complementary Learning Systems (CLS) theory proposes a model that combines these complementary learning systems of the hippocampus and neocortex. The interaction between the neocortex and hippocampus in the brain is known to promote adaptive behavior through memorization and generalization. Furthermore, it is suggested that memory consolidation from the hippocampus to the neocortex is facilitated by the activation synchronized with multiple exact or false replays of the encoded experience in the hippocampus. This implies that the hippocampus functions as a generative associative network.
+<h2 id="contributions">
+  Contributions
+  <a class="anchor" href="#contributions">#</a>
+</h2>
+<ol>
+<li>
+<p>Larimar introduces a class of memory-conditioned language models inspired by complementary learning mechanisms in the brain. This architecture facilitates real-time test-time adaptation without requiring time-intensive gradient-based learning or internal fact tracing, offering a faster method for updating LLMs.
+Utility Demonstration in Knowledge Editing and Context Generalization:</p>
+</li>
+<li>
+<p>The proposed method is demonstrated on two significant and challenging use cases: knowledge editing and generalizing to longer input contexts. Larimar exhibits fast and accurate training-free adaptation to new inputs in both scenarios, outperforming baseline editing methods and existing language models.
+Selective Fact Forgetting and Information Leakage Prevention:</p>
+</li>
+<li>
+<p>Larimar effectively supports selective fact forgetting and prevents information leakage using its one-shot memory updating mechanism.
+Recursive Search-Based Solution for Long Context Generalization:</p>
+</li>
+<li>
+<p>A simple recursive search-based approach is provided to enable Larimar&rsquo;s memory to generalize to longer input contexts.</p>
+</li>
+</ol>
 </article>
  
       
@@ -673,7 +711,12 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#neocortex-hippocampus-interactions">Neocortex-Hippocampus interactions</a></li>
+    <li><a href="#contributions">Contributions</a></li>
+  </ul>
+</nav>
 
 
  
